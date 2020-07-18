@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>b2015b92-c596-49f9-a354-75f6a8459b80</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{789894c7-04a9-4a11-a6b5-3f4435165112};{1b580a1a-fdb3-4b32-83e1-6407eb2722e6};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>runserver.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Web launcher</LaunchProvider>
+    <WebBrowserUrl>http://localhost:5000</WebBrowserUrl>
+    <OutputPath>.</OutputPath>
+    <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
+    <Name>FlaskWebProject1</Name>
+    <RootNamespace>FlaskWebProject1</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="class1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="audio.py" />
+    <Compile Include="nltk2.py" />
+    <Compile Include="sentiment_nb.py" />
+    <Compile Include="sentiment_svc.py" />
+    <Compile Include="runserver.py" />
+    <Compile Include="FlaskWebProject1\__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FlaskWebProject1\" />
+    <Folder Include="FlaskWebProject1\ML\" />
+    <Folder Include="FlaskWebProject1\ML\data\" />
+    <Folder Include="FlaskWebProject1\ML\notebooks\" />
+    <Folder Include="FlaskWebProject1\ML\notebooks\.ipynb_checkpoints\" />
+    <Folder Include="FlaskWebProject1\views\" />
+    <Folder Include="FlaskWebProject1\static\" />
+    <Folder Include="FlaskWebProject1\static\content\" />
+    <Folder Include="FlaskWebProject1\static\bulma\" />
+    <Folder Include="FlaskWebProject1\static\bulma\css\" />
+    <Folder Include="FlaskWebProject1\static\bulma\sass\" />
+    <Folder Include="FlaskWebProject1\static\content\images\" />
+    <Folder Include="FlaskWebProject1\static\content\others\" />
+    <Folder Include="FlaskWebProject1\static\fonts\" />
+    <Folder Include="FlaskWebProject1\static\images\" />
+    <Folder Include="FlaskWebProject1\static\others\" />
+    <Folder Include="FlaskWebProject1\static\scripts\" />
+    <Folder Include="FlaskWebProject1\templates\" />
+    <Folder Include="data\" />
+    <Folder Include="__pycache__\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="FlaskWebProject1\ML\data\._current_data.csv" />
+    <Content Include="FlaskWebProject1\ML\data\._Evaluations-Binary.csv" />
+    <Content Include="FlaskWebProject1\ML\data\._Evaluations-Binary2_partially_labelled.csv" />
+    <Content Include="FlaskWebProject1\ML\data\._rmp.csv" />
+    <Content Include="FlaskWebProject1\ML\data\._scrapped_data_rmp.csv" />
+    <Content Include="FlaskWebProject1\ML\data\._train_sentiment.csv" />
+    <Content Include="FlaskWebProject1\ML\data\current_data.csv" />
+    <Content Include="FlaskWebProject1\ML\data\Evaluations-Binary.csv" />
+    <Content Include="FlaskWebProject1\ML\data\Evaluations-Binary2_partially_labelled.csv" />
+    <Content Include="FlaskWebProject1\ML\data\rmp.csv" />
+    <Content Include="FlaskWebProject1\ML\data\scrapped_data_rmp.csv" />
+    <Content Include="FlaskWebProject1\ML\data\train_sentiment.csv" />
+    <Content Include="FlaskWebProject1\ML\LICENSE" />
+    <Content Include="FlaskWebProject1\ML\notebooks\.ipynb_checkpoints\Classifier_SVC-checkpoint.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\.ipynb_checkpoints\NB_Classifier-checkpoint.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\.ipynb_checkpoints\ProfEvalsIR-checkpoint.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\._Classifier_SVC.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\._NB_Classifier.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\._NB_Classifier_tb.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\._ProfEvalsIR.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\._RateMyProfessors Scraping.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\Classifier_SVC.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\NB_Classifier.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\NB_Classifier_tb.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\ProfEvalsIR.ipynb" />
+    <Content Include="FlaskWebProject1\ML\notebooks\RateMyProfessors Scraping.ipynb" />
+    <Content Include="FlaskWebProject1\ML\README.md" />
+    <Content Include="FlaskWebProject1\static\bulma\css\style.css" />
+    <Content Include="FlaskWebProject1\static\bulma\css\style.css.map" />
+    <Content Include="FlaskWebProject1\static\bulma\css\style.min.css" />
+    <Content Include="FlaskWebProject1\static\bulma\sass\.gitignore" />
+    <Content Include="FlaskWebProject1\static\bulma\sass\package-lock.json" />
+    <Content Include="FlaskWebProject1\static\bulma\sass\package.json" />
+    <Content Include="FlaskWebProject1\static\bulma\sass\style.sass" />
+    <Content Include="FlaskWebProject1\static\content\images\background_1.jpg" />
+    <Content Include="FlaskWebProject1\static\images\background_1.jpg" />
+    <Content Include="FlaskWebProject1\templates\predict.html" />
+    <Content Include="FlaskWebProject1\templates\result.html" />
+    <Content Include="audio_file.wav" />
+    <Content Include="data\Evaluations-Binary.csv" />
+    <Content Include="__pycache__\audio.cpython-36.pyc" />
+    <Content Include="__pycache__\audio.cpython-38.pyc" />
+    <Content Include="__pycache__\nltk.cpython-36.pyc" />
+    <Content Include="__pycache__\nltk.cpython-38.pyc" />
+    <Content Include="__pycache__\sentiment.cpython-36.pyc" />
+    <Content Include="__pycache__\sentiment_nb.cpython-36.pyc" />
+    <Content Include="__pycache__\sentiment_nb.cpython-38.pyc" />
+    <Content Include="__pycache__\sentiment_svc.cpython-36.pyc" />
+    <Content Include="__pycache__\sentiment_svc.cpython-38.pyc" />
+    <Content Include="requirements.txt" />
+    <Content Include="FlaskWebProject1\static\content\bootstrap.css" />
+    <Content Include="FlaskWebProject1\static\content\bootstrap.min.css" />
+    <Content Include="FlaskWebProject1\static\content\site.css" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="FlaskWebProject1\static\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="FlaskWebProject1\static\scripts\bootstrap.js" />
+    <Content Include="FlaskWebProject1\static\scripts\bootstrap.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery-1.10.2.min.map" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="FlaskWebProject1\static\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\modernizr-2.6.2.js" />
+    <Content Include="FlaskWebProject1\static\scripts\respond.js" />
+    <Content Include="FlaskWebProject1\static\scripts\respond.min.js" />
+    <Content Include="FlaskWebProject1\static\scripts\_references.js" />
+    <Content Include="FlaskWebProject1\templates\about.html" />
+    <Content Include="FlaskWebProject1\templates\contact.html" />
+    <Content Include="FlaskWebProject1\templates\index.html" />
+    <Content Include="FlaskWebProject1\templates\layout.html" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
