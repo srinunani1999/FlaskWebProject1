@@ -41,9 +41,10 @@ def recording():
             text = stop_recording()
             return render_template('result.html', audio_text=text)
     return redirect(url_for('index'))
-
+@app.route('/')
 @app.route('/feedback')
 def index():
     return render_template('index.html', button_name="Start_Recording")
+
 
    
